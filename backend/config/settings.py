@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 PRODUCTION = os.getenv("DJANGO_ENV") == "production"
 
 if PRODUCTION:
-    SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
+    SECRET_KEY = os.environ["@497ia$()^^97t-q_m+8_)pi#sy8+paj_ab2e+3ux$l8jeu8yn"]
 else:
     SECRET_KEY = os.getenv(
         "DJANGO_SECRET_KEY",
